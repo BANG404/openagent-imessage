@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+  "path": "external_plugins/imessage",
+  "source_sha256": "4aea3c1287324ba6454b872283459945fe34d431a53d5d450285cb016626bb24",
+  "artifacts": {
+    "channel.mjs": "1d2de1ff4a1b91088ad0aad2f56acc6579be07d7be6794e6437a4a5f9cc89655",
+    "command.mjs": "2fc9e37646ad20d3eca52f31938d090cc4e63dfd9925f14305fb42717df302ab",
+    "integration.mjs": "aaf639f53b39fc6ead05e8ba2648b781aa77897640f931a538b7dc57213e3f5f",
+    "status.mjs": "4c8c20b8d3577243955683a725f72c97abbabad9562743b2ec2923f7223093b7",
+    "unavailable.mjs": "098717abbf274f0f8285488dd8fd94a2e26fe7f9c1010d2e94e7f3fd8903b6a5"
+  }
+}
