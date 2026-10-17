@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "imessage",
-  "version": "0.1.0",
-  "description": "macOS iMessage connected to OpenAgent conversations.",
+  "version": "0.1.1",
+  "description": "Send messages to OpenAgent and receive agent replies through iMessage on a Mac; requires macOS message access.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/imessage",
   "repository": "https://github.com/BANG404/openagent-imessage",
@@ -56,8 +56,8 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "imessage",
-            "description": "macOS iMessage connected to OpenAgent conversations.",
+            "display_name": "iMessage Channel",
+            "description": "Send messages to OpenAgent and receive agent replies through iMessage on a Mac; requires macOS message access.",
             "commands.setup.label": "Setup",
             "commands.setup.description": "Review connection prerequisites",
             "commands.start.label": "Start channel",
@@ -66,8 +66,8 @@
             "commands.access.description": "Inspect or change pairing and allowed senders"
           },
           "zh": {
-            "display_name": "imessage",
-            "description": "将 macOS iMessage 连接到 OpenAgent 会话。",
+            "display_name": "iMessage 消息接入",
+            "description": "在 Mac 上通过 iMessage 向 OpenAgent 发消息并接收智能体回复，需要 macOS 消息访问权限。",
             "commands.setup.label": "配置",
             "commands.setup.description": "查看连接要求",
             "commands.start.label": "启动通道",

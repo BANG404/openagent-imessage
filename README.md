@@ -1,6 +1,6 @@
-# imessage for OpenAgent
+# iMessage Channel
 
-macOS iMessage connected to OpenAgent conversations.
+Send messages to OpenAgent and receive agent replies through iMessage on a Mac; requires macOS message access.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
@@ -20,6 +20,6 @@ Bundled tests cover immutable artifacts, config conversion and peer isolation, d
 
 ## 中文
 
-将 macOS iMessage 连接到 OpenAgent 会话。 安装发布包后运行 /imessage:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/imessage/ 下，修改后刷新插件。在本机管理会话运行 /imessage:start 完成绑定；远程消息不能更改访问权限。
+在 Mac 上通过 iMessage 向 OpenAgent 发消息并接收智能体回复，需要 macOS 消息访问权限。 安装发布包后运行 /imessage:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/imessage/ 下，修改后刷新插件。在本机管理会话运行 /imessage:start 完成绑定；远程消息不能更改访问权限。
 
 Upstream source and exact revision are recorded in provenance.json. Bundled source remains available for inspection.
