@@ -4,6 +4,9 @@ Send messages to OpenAgent and receive agent replies through iMessage on a Mac; 
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
+The manifest declares an integration in the communication category, so the installed
+package also appears in Integrations → Channels, including while disabled.
+
 ## Setup
 
 - macOS, Node.js, explicit OpenAgent computer access grant, Full Disk Access and Messages Automation permission.

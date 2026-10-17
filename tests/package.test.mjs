@@ -21,6 +21,9 @@ test('MCP declarations use portable transports, contained assets and no literal 
   expect(mcp.$schema).toBe('https://agent-plugins.org/schemas/1.0.0/mcp.schema.json');
   expect(mcp.mcpServers.setup.command).toBe('node');
   expect(manifest.extensions.openagent.compatibility.plugin_protocol).toEqual({ min: 1, max: 1 });
+  expect(manifest.extensions.openagent.type).toBe('integration');
+  expect(manifest.extensions.openagent.category).toBe('communication');
+  expect(manifest.extensions.openagent.compatibility.features).toContain('integration-v1');
   const text = JSON.stringify(mcp);
   expect(text).not.toContain('CLAUDE_PLUGIN_ROOT');
   expect(text).not.toContain('GITHUB_PERSONAL_ACCESS_TOKEN');

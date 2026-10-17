@@ -1,18 +1,21 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "imessage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Send messages to OpenAgent and receive agent replies through iMessage on a Mac; requires macOS message access.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/imessage",
   "repository": "https://github.com/BANG404/openagent-imessage",
   "extensions": {
     "openagent": {
+      "type": "integration",
+      "category": "communication",
       "compatibility": {
         "plugin_protocol": {
           "min": 1,
           "max": 1
-        }
+        },
+        "features": ["integration-v1"]
       },
       "capabilities": [
         "skills",
